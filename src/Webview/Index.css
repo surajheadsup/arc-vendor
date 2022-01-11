@@ -1,0 +1,95 @@
+body{
+    scroll-behavior: auto smooth;
+}
+#getcatecard{
+    display: none;
+}
+.danger{
+    color  : red;
+}
+.border-red{
+    border : 1px red solid;
+}
+#Button{
+    width: 70px;
+   }
+    .btn{
+        font-weight: 500;
+        letter-spacing: 0.8px;
+        padding : 10px 15px;
+    }
+    .btn-pri{
+            background-color: rgba(101,113,255,.1);
+            color : #4c59ff
+    }
+    .btn-dan{
+            background-color: rgba(255,51,102,.1);
+            color: #ff1a53;
+    }
+    .autocomplete{
+        list-style: none;
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .autocomplete .suggestion-result{
+        padding : 14px 25px;
+    }
+    .autocomplete .suggestion-result img{
+        width : 75%;
+    }
+    .autocomplete li{
+        border: 1px #ccc solid;
+        margin-left: -40px;
+        margin-bottom: 10px;
+    }
+    .autocomplete .suggestion-result button{
+        margin-top: 10px;
+    }
+    .pointer{
+        cursor: pointer;
+    }
+    /*
+    .autocomplete li label{
+        margin-left: 10px;
+        padding : 15px;
+    }
+    .autocomplete li:hover{
+        cursor: pointer;
+        background: rgba(101,113,255,0.1);
+        
+    }
+    .autocomplete .thumbnail{
+        width : 50px;
+    } */
+@media only screen and (max-width: 550px){
+    #cardgetcate{
+        display: none;
+    }
+    #getcatecard{
+        display: block;
+    }
+}
+.custom-table{
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
+.autocomplete{
+    list-style: none;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.autocomplete .suggestion-result{
+    padding : 14px 25px;
+}
+.autocomplete .suggestion-result img{
+    width : 75%;
+}
+.autocomplete li{
+    border: 1px #ccc solid;
+    margin-left: -40px;
+    margin-bottom: 10px;
+}
+.autocomplete .suggestion-result button{
+    margin-top: 10px;
+}

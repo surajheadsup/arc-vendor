@@ -1,0 +1,226 @@
+body{
+    scroll-behavior: smooth;
+}
+
+#Search-input{
+    margin-left: 600px;
+    margin-right: 10px;
+}
+.nav-bar{
+    display: flex;
+}
+#Button{
+ width: 70px;
+}
+#cardres{
+    display: none;
+}
+#btnadd{
+    display: none;
+}
+@media only screen and (max-width: 1525px){
+       #Search-input{
+           margin-left: 500px;
+       }
+}
+
+@media only screen and (max-width: 1425px){
+    #Search-input{
+        margin-left: 400px;
+    }
+} 
+
+@media only screen and (max-width: 1325px){
+    #Search-input{
+        margin-left: 300px;
+    }
+    #page-contents{
+        margin-left: -40px;
+    }
+}
+@media only screen and (max-width: 1260px){
+    #realCard{
+        display: none;
+    }
+    #cardres{
+        display: block;
+    }
+}
+
+
+
+@media only screen and (max-width: 1225px){
+    #Search-input{
+        margin-left: 250px;
+    }
+}
+@media only screen and (max-width: 1005px){
+    #Search-input{
+        margin-left: 200px;
+    }
+    #cardmar{
+        width: 15.7rem!important;
+    }
+    #cardimg{
+        width: 250px;
+        height: 250px;
+    }
+    #cardbody{
+        margin: -10px;
+    }
+}
+@media only screen and (max-width: 990px){
+    #cardimg{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 990px){
+    #stretchcard{
+       margin-left: 100px!important;
+    }
+    #navstretch{
+        margin-left: 20px!important;
+    }
+}
+
+
+@media only screen and (max-width: 885px){
+    #Search-input{
+        margin-left: 100px;
+    }
+    #stretchcard{
+        margin-left: 35px!important;
+     }
+     #Search-input{
+       display: none;
+    }
+}
+@media only screen and (max-width: 767px){
+    #stretchcard{
+        margin-left: 100px!important;
+     }
+    #cardimg{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 690px){
+    #stretchcard{
+        margin-left: 40px!important;
+     }
+   
+}
+@media only screen and (max-width: 600px){
+    #stretchcard{
+        margin-left: 10px!important;
+     }
+}
+@media only screen and (max-width: 575px){
+    #stretchcard{
+        margin-left: 100px!important;
+     }
+     #cardimg{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 510px){
+    #stretchcard{
+        margin-left: 50px!important;
+     }
+     #cardimg{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    #stretchcard{
+        margin-left: 50px!important;
+     }
+     #cardimg{
+        width: 250px;
+        height: 200px;
+    }
+    #hfour{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 370px){
+     #cardh{
+         display: none;
+     }
+     #btnadd{
+         display: block;
+     }
+    }
+    @media only screen and (max-width: 320px){
+        #stretchcard{
+            margin-left: 40px!important;
+         }
+         #cardimg{
+            width: 200px;
+            height: 150px;
+        }
+       }
+       @media only screen and (max-width: 320px){
+        #stretchcard{
+            margin-left: 20px!important;
+         }
+         #cardimg{
+            width: 200px;
+            height: 150px;
+        }
+       }
+
+
+       
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 2px solid darkorange!important;
+    border-right: none!important;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .searchTerm:focus{
+    color: #000!important;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid darkorange!important;
+    background: darkorange!important;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .searchButtoncut{
+    width: 40px;
+    height: 36px;
+    border: none;
+    text-align: center;
+    color: #000;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-top: 2px solid darkorange;
+    border-bottom: 2px solid darkorange;
+  }
+  .searchButton:hover{
+     font-size: 25px;
+  }
+  .searchButtoncut:hover{
+      color: red;
+  }
